@@ -7,7 +7,6 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 
 var routes = require('./routes/index');
-var users = require('./routes/users');
 var hw1 = require('./routes/hw1');
 var hw2 = require('./routes/hw2');
 var app = express();
@@ -26,7 +25,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 mongoose.connect('mongodb://localhost/hw2');
 app.use('/', routes);
-app.use('/users', users);
 app.use('/hw1', hw1);
 app.use('/hw2', hw2);
 
