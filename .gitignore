@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+.DS_Store
+HW1/.idea/workspace.xml
+HW1/.idea/watcherTasks.xml
+HW1/.idea/vcs.xml
+HW1/.idea/modules.xml
+HW1/.idea/misc.xml
+*.xml
+*.iml
